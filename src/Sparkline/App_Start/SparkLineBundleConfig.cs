@@ -8,7 +8,7 @@ namespace SparklineSupport
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/js").Include(
+            bundles.Add(new ScriptBundle("~/bundles/sparkline").Include(
                 "~/Scripts/jquery-1.*",
                 "~/Scripts/jquery.sparkline.js"
                 ));

@@ -9,7 +9,7 @@
     close-solution
     $p = new-mvcapplication foobar
     install-package Newtonsoft.Json     # confirm access to NuGet
-    install-package jquery.sparkline.mvc4 -source $source
+    install-package jquery.sparkline.mvc4.sample -source $source
     build-project $p    
     pop-location
 	#$dte.ExecuteCommand("debug.start")

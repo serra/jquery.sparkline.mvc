@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>jquery.sparkline.mvc4.sample</id>
+    <title>jQuery sparklines for ASP.Net MVC4 Sample</title>
+    <version>0.1.0</version>
+    <authors>Gareth Watts, Marijn van der Zee</authors>
+    <description>This is a sample for adding the jquery.sparkline library to an MVC 4 application</description>
+    <projectUrl>https://github.com/serra</projectUrl>
+	  <dependencies>
+        <dependency id="jquery.sparkline.mvc4" />
+    </dependencies> 
+  </metadata>
+  <files>
+    <file src="Sparkline\Controllers\ExampleSparkline*.cs" target="Content\Controllers"></file>
+    <file src="Sparkline\Models\Example*.*" target="Content\Models"></file>
+    <file src="Sparkline\Views\ExampleSparkline\*.*" target="Content\Views\ExampleSparkline"></file>
+    <file src="Sparkline\Views\Shared\*.*" target="Content\Views\Shared"></file>
+  </files>
+</package>
