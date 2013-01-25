@@ -8,10 +8,10 @@
     . .\vs.ps1 $outdir $templates
     close-solution
     $p = new-mvcapplication foobar
-    install-package Newtonsoft.Json
-    install-package twitter.bootstrap.mvc4.sample -source $source
+    install-package Newtonsoft.Json     # confirm access to NuGet
+    install-package jquery.sparkline.mvc4 -source $source
     build-project $p    
     pop-location
-	$dte.ExecuteCommand("debug.start")
+	#$dte.ExecuteCommand("debug.start")
 }
 
