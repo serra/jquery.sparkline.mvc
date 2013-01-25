@@ -21,4 +21,4 @@ To be determined, probably New BSD, similar to the jquery.sparkline project.
 
  * The [Sparklines](http://omnipotent.net/jquery.sparkline/) project
  * Gareth Watts [@gwatts](https://github.com/gwatts/jquery.sparkline)
- * The [twitter.bootstrap.mvc](https://github.com/erichexter/twitter.bootstrap.mvc) for some useful Visual Studio automation tricks
+ * The [twitter.bootstrap.mvc project](https://github.com/erichexter/twitter.bootstrap.mvc) for some useful Visual Studio automation tricks
