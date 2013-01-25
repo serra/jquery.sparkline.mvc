@@ -10,13 +10,12 @@
     <releaseNotes>https://github.com/serra</releaseNotes>
     <dependencies>
       	<dependency id="jquery" version="[1.4.3,1.9)" />
+        <dependency id="microsoft.aspnet.web.optimization" version="1.0.0"/>
     </dependencies> 
   </metadata>
   <files>
     <file src="Sparkline\Scripts\*.*" target="Content\Scripts"></file>
-    <!--
     <file src="Sparkline\App_Start\*.*" target="Content\App_Start"></file>
     <file src="Sparkline\Tools\*.*" target="tools"></file>
-    -->
   </files>
 </package>

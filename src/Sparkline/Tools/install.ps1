@@ -22,7 +22,7 @@ if($globalasax -ne $null) {
     				$editpoint.LineUp(1)
     				$editpoint.EndOfLine()
     				$editpoint.InsertNewLine()
-    				$editpoint.Insert("            // register sparkline bundle here")
+    				$editpoint.Insert("            SparklineSupport.SparklineBundleConfig.RegisterBundles(System.Web.Optimization.BundleTable.Bundles);")
                 }
     }
     catch{
